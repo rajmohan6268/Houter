@@ -1,5 +1,927 @@
-<div class="flex items-center justify-center min-h-screen text-5xl text-center text-white bg-red-600 ">
-  angular tailwind starter
+<app-header class="absolute z-20 w-full"></app-header>
+<div class="grid w-full grid-cols-2 blur-bg">
+  <!--  -->
+  <div class="z-20 flex items-center p-20">
+    <div class="space-y-8">
+      <div class="text-5xl font-bold uppercase text-blue">
+        find the place to
+        <div class="flex">
+          live
+          <svg class="max-w-md" viewBox="0 0 450 50">
+            <text class="notfont" y="40">your dreams</text>
+          </svg>
+        </div>
+
+        easily here
+      </div>
+      <div class="max-w-xl text-gray">
+        Everything you need about finding your place to live will be here, where
+        it will be easier for you
+      </div>
+      <!--  -->
+      <div
+        class="relative inline-flex items-center justify-between w-full max-w-xs lg:max-w-xl"
+      >
+        <button
+          class="
+            absolute
+            flex
+            items-center
+            right-0.5
+            p-2
+            px-8
+            mr-0.5
+            text-white
+            bg-green
+            rounded-full
+          "
+        >
+          Search
+          <span class="ml-2">
+            <svg
+              width="7"
+              height="14"
+              viewBox="0 0 7 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.993352 0.00180435C0.761661 0.00134945 0.537126 0.0825443 0.358724 0.231296C0.258315 0.315059 0.175316 0.417933 0.114479 0.534022C0.0536416 0.650112 0.0161625 0.777137 0.00418798 0.907824C-0.00778654 1.03851 0.00597897 1.17029 0.0446958 1.29562C0.0834126 1.42094 0.146319 1.53735 0.229814 1.63818L4.67221 6.98632L0.388472 12.3444C0.306104 12.4465 0.244592 12.5639 0.207475 12.69C0.170357 12.8161 0.158365 12.9482 0.172187 13.079C0.186009 13.2097 0.225373 13.3364 0.288017 13.4518C0.35066 13.5672 0.435349 13.669 0.537213 13.7513C0.639811 13.8421 0.75996 13.9107 0.89012 13.9526C1.02028 13.9945 1.15764 14.0088 1.29359 13.9948C1.42953 13.9807 1.56112 13.9385 1.68009 13.8709C1.79907 13.8032 1.90286 13.7116 1.98496 13.6016L6.77442 7.61492C6.92027 7.43638 7 7.21244 7 6.98133C7 6.75021 6.92027 6.52627 6.77442 6.34773L1.81639 0.361009C1.71691 0.240259 1.59055 0.144807 1.44755 0.0823965C1.30455 0.0199862 1.14894 -0.00762463 0.993352 0.00180435Z"
+                fill="white"
+              />
+            </svg>
+          </span>
+        </button>
+        <img src="/assets/loc.svg" class="absolute pl-4" alt="" />
+        <input
+          placeholder="Search for the location you want!"
+          name=""
+          class="w-full p-3 pl-10 pr-32 border border-gray-200 rounded-full focus:outline-none focus:border-gray-300"
+        />
+      </div>
+      <!--  -->
+      <div class="space-y-4">
+        <div class="text-gray">Our Partnership</div>
+        <div class="">
+          <ul class="flex space-x-10">
+            <li><img src="/assets/traveloka_logo 2.png" alt="" /></li>
+            <li><img src="/assets/traveloka_logo 3.png" alt="" /></li>
+            <li><img src="/assets/traveloka_logo 4.png" alt="" /></li>
+            <li><img src="/assets/traveloka_logo 5.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="relative overflow-x-hidden">
+    <div class="absolute flex items-end h-full p-20">
+      <div class="flex items-center space-x-6 font-bold text-blue">
+        <div class="flex items-center flex-shrink-0 p-6 bg-white rounded-3xl">
+          <ul class="flex items-center">
+            <li class="">
+              <img
+                class="border-4 border-white rounded-full avatar-shadow"
+                src="/assets/p1.png"
+                alt=""
+              />
+            </li>
+            <li class="-ml-8">
+              <img
+                class="border-4 border-white rounded-full avatar-shadow"
+                src="/assets/p2.png"
+                alt=""
+              />
+            </li>
+            <li class="-ml-8">
+              <img
+                class="border-4 border-white rounded-full avatar-shadow"
+                src="/assets/p3.png"
+                alt=""
+              />
+            </li>
+          </ul>
+          <div class="pl-2">
+            <div class="">1K+ People</div>
+            <div class="font-light text-light-gray">
+              Successfully Getting Home
+            </div>
+          </div>
+        </div>
+
+        <div class="flex items-center flex-shrink-0 p-6 bg-white rounded-3xl">
+          <div class="">
+            <img src="/assets/p5.png" alt="" />
+          </div>
+          <div class="pl-2">
+            <div class="">56 Houses</div>
+            <div class="font-light text-light-gray">Sold Monthly</div>
+          </div>
+        </div>
+        <div class="flex items-center flex-shrink-0 p-6 bg-white rounded-3xl">
+          <div class="">
+            <img src="/assets/p4.png" alt="" />
+          </div>
+          <div class="pl-2">
+            <div class="">4K+</div>
+            <div class="font-light text-light-gray">
+              People Looking for New Homes
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="">
+
+      </div> -->
+    </div>
+
+    <img class="min-h-screen" src="/assets/Img.png" alt="" />
+  </div>
+</div>
+<!--  -->
+<section class="w-full my-10 mt-20">
+  <div class="flex items-center justify-between w-full px-20">
+    <div class="my-10">
+      <div class="text-orange">Our Recommendation</div>
+      <div class="text-3xl font-medium text-blue">Featured House</div>
+    </div>
+    <div class="flex items-center space-x-10 text-gray-1">
+      <div class="flex items-center px-6 py-3 rounded-full text-green bg-teal">
+        <div class="mr-2">
+          <svg
+            width="18"
+            height="19"
+            viewBox="0 0 18 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.0001 8.83189V17.5C17.9999 17.7719 17.9263 18.0386 17.7869 18.272C17.6475 18.5054 17.4477 18.6968 17.2085 18.8259C16.9917 18.9432 16.7486 19.0031 16.5022 18.9999H11.9968C11.7979 18.9999 11.6071 18.9209 11.4665 18.7803C11.3258 18.6396 11.2468 18.4488 11.2468 18.2499V13.7493C11.2468 13.5504 11.1678 13.3596 11.0271 13.2189C10.8865 13.0783 10.6957 12.9993 10.4968 12.9993H7.49682C7.29791 12.9993 7.10714 13.0783 6.96649 13.2189C6.82584 13.3596 6.74682 13.5504 6.74682 13.7493V18.2499C6.74682 18.4488 6.6678 18.6396 6.52715 18.7803C6.3865 18.9209 6.19573 18.9999 5.99682 18.9999H1.50029C1.28764 19.0005 1.07732 18.9556 0.883446 18.8682C0.689567 18.7808 0.516599 18.653 0.376132 18.4934C0.129551 18.2082 -0.00419596 17.8427 0.000100382 17.4657V8.8318C0.000263818 8.62281 0.0440112 8.41615 0.128549 8.22503C0.213086 8.0339 0.336555 7.86251 0.491069 7.7218L7.99041 0.903078C8.26588 0.650753 8.62589 0.510777 8.99945 0.510742C9.37302 0.510707 9.73305 0.650617 10.0086 0.90289L17.5092 7.72189C17.6637 7.86263 17.7871 8.03403 17.8717 8.22515C17.9562 8.41627 17.9999 8.62292 18.0001 8.83189Z"
+              fill="#10B981"
+            />
+          </svg>
+        </div>
+        House
+      </div>
+      <div
+        class="flex items-center px-6 py-3 border border-gray-300 rounded-full"
+      >
+        <div class="mr-2">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 17.9999H1C0.45 17.9999 0 17.5499 0 16.9999V5.68994C0 5.26994 0.25 4.89994 0.64 4.74994L11.64 0.519938C11.7921 0.46126 11.9561 0.440637 12.118 0.459864C12.2798 0.47909 12.4345 0.537584 12.5686 0.630254C12.7027 0.722923 12.8121 0.846959 12.8873 0.991563C12.9624 1.13617 13.0012 1.29696 13 1.45994V6.99994H5C4.45 6.99994 4 7.44994 4 7.99994V17.9999ZM14 8.99994H7C6.45 8.99994 6 9.44994 6 9.99994V16.9999C6 17.5499 6.45 17.9999 7 17.9999H11V13.9999C11 13.4499 11.45 12.9999 12 12.9999C12.55 12.9999 13 13.4499 13 13.9999V17.9999H17C17.55 17.9999 18 17.5499 18 16.9999V8.99994C18 7.89994 17.1 6.99994 16 6.99994C14.9 6.99994 14 7.89994 14 8.99994Z"
+              fill="#888B97"
+            />
+          </svg>
+        </div>
+        Villa
+      </div>
+      <div
+        class="flex items-center px-6 py-3 border border-gray-300 rounded-full"
+      >
+        <div class="mr-2">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14 8V2C14 0.9 13.1 0 12 0H6C4.9 0 4 0.9 4 2V4H2C0.9 4 0 4.9 0 6V16C0 17.1 0.9 18 2 18H8V14H10V18H16C17.1 18 18 17.1 18 16V10C18 8.9 17.1 8 16 8H14ZM4 16H2V14H4V16ZM4 12H2V10H4V12ZM4 8H2V6H4V8ZM8 12H6V10H8V12ZM8 8H6V6H8V8ZM8 4H6V2H8V4ZM12 12H10V10H12V12ZM12 8H10V6H12V8ZM12 4H10V2H12V4ZM16 16H14V14H16V16ZM16 12H14V10H16V12Z"
+              fill="#888B97"
+            />
+          </svg>
+        </div>
+        Apartment
+      </div>
+    </div>
+    <div class="flex items-center space-x-10">
+      <div class="p-3 bg-gray rounded-3xl">
+        <svg
+          class="-rotate-180"
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.5077 22.1645C17.778 22.165 18.04 22.0703 18.2481 21.8967C18.3653 21.799 18.4621 21.679 18.5331 21.5436C18.604 21.4081 18.6478 21.2599 18.6617 21.1075C18.6757 20.955 18.6597 20.8012 18.6145 20.655C18.5693 20.5088 18.4959 20.373 18.3985 20.2554L13.2157 14.0159L18.2134 7.76475C18.3095 7.64567 18.3813 7.50867 18.4246 7.3616C18.4679 7.21453 18.4819 7.0603 18.4657 6.90777C18.4496 6.75524 18.4037 6.60742 18.3306 6.47281C18.2575 6.3382 18.1587 6.21945 18.0399 6.12339C17.9202 6.01741 17.78 5.93748 17.6282 5.8886C17.4763 5.83972 17.316 5.82295 17.1574 5.83935C16.9988 5.85574 16.8453 5.90495 16.7065 5.98388C16.5677 6.0628 16.4466 6.16975 16.3508 6.298L10.7631 13.2825C10.593 13.4908 10.5 13.7521 10.5 14.0217C10.5 14.2913 10.593 14.5526 10.7631 14.7609L16.5475 21.7454C16.6636 21.8863 16.811 21.9976 16.9778 22.0705C17.1447 22.1433 17.3262 22.1755 17.5077 22.1645Z"
+            fill="#3C4563"
+          />
+        </svg>
+      </div>
+      <div class="p-3 bg-green rounded-3xl">
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.5077 22.1645C17.778 22.165 18.04 22.0703 18.2481 21.8967C18.3653 21.799 18.4621 21.679 18.5331 21.5436C18.604 21.4081 18.6478 21.2599 18.6617 21.1075C18.6757 20.955 18.6597 20.8012 18.6145 20.655C18.5693 20.5088 18.4959 20.373 18.3985 20.2554L13.2157 14.0159L18.2134 7.76475C18.3095 7.64567 18.3813 7.50867 18.4246 7.3616C18.4679 7.21453 18.4819 7.0603 18.4657 6.90777C18.4496 6.75524 18.4037 6.60742 18.3306 6.47281C18.2575 6.3382 18.1587 6.21945 18.0399 6.12339C17.9202 6.01741 17.78 5.93748 17.6282 5.8886C17.4763 5.83972 17.316 5.82295 17.1574 5.83935C16.9988 5.85574 16.8453 5.90495 16.7065 5.98388C16.5677 6.0628 16.4466 6.16975 16.3508 6.298L10.7631 13.2825C10.593 13.4908 10.5 13.7521 10.5 14.0217C10.5 14.2913 10.593 14.5526 10.7631 14.7609L16.5475 21.7454C16.6636 21.8863 16.811 21.9976 16.9778 22.0705C17.1447 22.1433 17.3262 22.1755 17.5077 22.1645Z"
+            fill="#FFF"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  -->
+<div class="flex justify-between mx-20">
+  <div  class="space-y-1">
+    <div class="relative">
+      <div
+        class="absolute flex items-center px-6 py-2 rounded-full text-red bg-red-light bottom-5 left-5"
+      >
+        <img src="/assets/ant-design_fire-filled.png" alt="" /> Popular
+      </div>
+      <img src="/assets/home1.png" alt="" />
+    </div>
+
+    <div class="text-2xl text-blue">Roselands House</div>
+    <div class="text-xl text-gray-2">$ 35.000.000</div>
+    <div class="flex items-center space-x-2">
+      <div class=""><img src="/assets/a1.png" alt="" /></div>
+      <div class="">
+        <div class="text-lg text-blue-1">Jenny Wilson</div>
+        <div class="text-sm text-gray-1">Dr. San Jose, South Dakota</div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div  class="space-y-1">
+    <div class="relative">
+      <div
+        class="absolute flex items-center px-6 py-2 rounded-full bg-lught-blue text-dark-blue bottom-5 left-5"
+      >
+        <img src="/assets/ph_house-fill.png" alt="" /> Popular
+      </div>
+      <img src="/assets/Rectangle 15.png" alt="" />
+    </div>
+
+    <div class="text-2xl text-blue">Roselands House</div>
+    <div class="text-xl text-gray-2">$ 35.000.000</div>
+    <div class="flex items-center space-x-2">
+      <div class=""><img src="/assets/f1.png" alt="" /></div>
+      <div class="">
+        <div class="text-lg text-blue-1">Ronald Richards</div>
+        <div class="text-sm text-gray-1">Santa Ana, Illinois</div>
+      </div>
+    </div>
+  </div>
+    <!--  -->
+    <div  class="space-y-1">
+      <div class="relative">
+        <div
+          class="absolute flex items-center px-6 py-2 rounded-full bg-teal text-green bottom-5 left-5"
+        >
+          <img src="/assets/entypo_wallet.png" alt="" /> Popular
+        </div>
+        <img src="/assets/Rectangle 15 (1).png" alt="" />
+      </div>
+
+      <div class="text-2xl text-blue">Roselands House</div>
+      <div class="text-xl text-gray-2">$ 35.000.000</div>
+      <div class="flex items-center space-x-2">
+        <div class=""><img src="/assets/f2.png" alt="" /></div>
+        <div class="">
+          <div class="text-lg text-blue-1">Robert Fox</div>
+          <div class="text-sm text-gray-1">Manchester, Kentucky</div>
+        </div>
+      </div>
+    </div>
+      <!--  -->
+  <div  class="space-y-1">
+    <div class="relative">
+      <div
+        class="absolute flex items-center px-6 py-2 rounded-full text-red bg-red-light bottom-5 left-5"
+      >
+        <img src="/assets/ant-design_fire-filled.png" alt="" /> Popular
+      </div>
+      <img src="/assets/Rectangle 15 (2).png" alt="" />
+    </div>
+
+    <div class="text-2xl text-blue">Roselands House</div>
+    <div class="text-xl text-gray-2">$ 35.000.000</div>
+    <div class="flex items-center space-x-2">
+      <div class=""><img src="/assets/f3.png" alt="" /></div>
+      <div class="">
+        <div class="text-lg text-blue-1">Dianne Russell</div>
+        <div class="text-sm text-gray-1">Preston Rd. Inglewood, Maine 98380</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+
+<div class="grid grid-cols-2 mx-20 my-32">
+  <div class="flex items-center">
+    <div class="mx-auto space-y-3">
+      <div class="text-orange">Ready to Sell!</div>
+      <div class="text-3xl font-medium text-blue">
+        Let’s tour and see our house!
+      </div>
+      <div class="max-w-lg text-gray">
+        Houses recommended by our partners that have been curated to become the
+        home of your dreams!
+      </div>
+      <div class="opacity-75 text-blue">House Detail</div>
+      <div class="grid grid-cols-2 gap-5 text-gray">
+        <div class="flex items-center">
+          <div class="">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.8 14.7692C26.0713 14.7692 28 16.6618 28 19.0769V22.7692H26.2V24H25V22.7692H7V24H5.8V22.7692H4V19.0769C4 16.7474 5.86341 14.7692 8.2 14.7692H23.8ZM22.6 8C24.2133 8 25.6004 9.33021 25.6 11.0769L25.6004 14.017C25.0548 13.7102 24.4443 13.5385 23.8 13.5385L22.6 13.5378C22.6 12.4839 21.7586 11.6923 20.8 11.6923H17.2C16.739 11.6923 16.3185 11.87 16.0001 12.1623C15.682 11.8703 15.2613 11.6923 14.8 11.6923H11.2C10.2061 11.6923 9.40033 12.5185 9.4 13.5378L8.2 13.5385C7.55587 13.5385 6.9456 13.7101 6.4 14.0167V11.0769C6.4 9.4223 7.69394 8 9.4 8H22.6ZM14.8 12.9228C15.1256 12.9228 15.4 13.2305 15.4 13.5385L10.6 13.5378C10.6 13.1613 10.8923 12.9231 11.2 12.9231L14.8 12.9228ZM20.8 12.9272C21.1395 12.9228 21.3997 13.2225 21.4 13.5378H16.6C16.6 13.156 16.8923 12.9231 17.2 12.9231L20.8 12.9272Z"
+                fill="#888B97"
+              />
+            </svg>
+          </div>
+          4 Bedrooms
+        </div>
+        <div class="flex items-center">
+          <div class="">
+            <svg
+              width="33"
+              height="32"
+              viewBox="0 0 33 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M27.0391 15.9553H5.96091C5.13081 15.9553 4.45532 16.6308 4.45532 17.4609C4.45532 18.291 5.13081 18.9665 5.96091 18.9665H27.0391C27.8692 18.9665 28.5447 18.291 28.5447 17.4609C28.5447 16.6308 27.8692 15.9553 27.0391 15.9553Z"
+                fill="#888B97"
+              />
+              <path
+                d="M27.1775 17.9819C26.9055 17.9056 26.6325 18.0602 26.5572 18.3272L26.5181 18.4647H6.48276L6.44263 18.3272C6.36735 18.0602 6.09234 17.9076 5.82233 17.9819C5.55532 18.0581 5.40175 18.3362 5.47807 18.6022L6.86118 23.4441C7.28975 24.9447 8.67894 25.9926 10.2387 25.9926H22.7601C24.3209 25.9926 25.7091 24.9447 26.1377 23.4441L27.5208 18.6022C27.5981 18.3362 27.4435 18.0581 27.1775 17.9819ZM10.2397 23.9851C9.57123 23.9851 8.97502 23.5364 8.79233 22.893L8.14093 20.6106C8.06466 20.3436 8.21922 20.0665 8.48519 19.9903C8.75417 19.914 9.03021 20.0695 9.10549 20.3356L9.75689 22.618C9.81913 22.8318 10.0168 22.9824 10.2397 22.9824C10.5167 22.9824 10.7415 23.2072 10.7415 23.4843C10.7416 23.7613 10.5167 23.9851 10.2397 23.9851Z"
+                fill="#888B97"
+              />
+              <path
+                d="M11.2034 25.0411C10.9555 24.9197 10.6554 25.017 10.5299 25.266L9.52619 27.2734C9.40273 27.5213 9.50309 27.8224 9.75104 27.9469C9.82429 27.9831 9.90061 28.0001 9.97589 28.0001C10.1596 28.0001 10.3362 27.8987 10.4246 27.7221L11.4283 25.7147C11.5517 25.4667 11.4513 25.1655 11.2034 25.0411Z"
+                fill="#888B97"
+              />
+              <path
+                d="M23.4739 27.2743L22.4702 25.2668C22.3458 25.0179 22.0446 24.9185 21.7967 25.042C21.5488 25.1664 21.4484 25.4676 21.5718 25.7155L22.5755 27.723C22.6639 27.8986 22.8405 28 23.0242 28C23.0995 28 23.1758 27.9829 23.2491 27.9478C23.497 27.8233 23.5974 27.5222 23.4739 27.2743Z"
+                fill="#888B97"
+              />
+              <path
+                d="M24.615 4C24.1031 4 23.6213 4.19973 23.259 4.5621L21.6661 6.15501C21.4704 6.35073 21.4704 6.66893 21.6661 6.86465C21.8618 7.06038 22.18 7.06038 22.3757 6.86465L23.9686 5.27274C24.1402 5.10011 24.3701 5.00474 24.62 5.00474C25.1238 5.00474 25.5334 5.41426 25.5334 5.91811V16.4572C25.5334 16.7342 25.7582 16.9591 26.0352 16.9591C26.3123 16.9591 26.5371 16.7342 26.5381 16.4562V5.91713C26.5381 4.86021 25.6789 4 24.615 4Z"
+                fill="#888B97"
+              />
+              <path
+                d="M22.8776 6.65681L21.8739 5.65311C21.7594 5.53868 21.5998 5.48547 21.4372 5.51257L18.9279 5.92411C18.7433 5.95422 18.5917 6.08469 18.5325 6.26136C18.4733 6.43803 18.5184 6.63475 18.6489 6.76822L21.6601 9.86973C21.7555 9.9691 21.8869 10.0223 22.0194 10.0223C22.0666 10.0223 22.1148 10.0153 22.1619 10.0012C22.3406 9.94905 22.4761 9.80151 22.5122 9.61881L23.0141 7.10952C23.0472 6.94588 22.996 6.77622 22.8776 6.65681Z"
+                fill="#888B97"
+              />
+              <path
+                d="M16.3523 10.0806C16.1566 9.88491 15.8384 9.88491 15.6427 10.0806L14.639 11.0843C14.4433 11.2801 14.4433 11.5983 14.639 11.794C14.7374 11.8913 14.8658 11.9405 14.9943 11.9405C15.1228 11.9405 15.2512 11.8914 15.3486 11.794L16.3523 10.7903C16.5481 10.5945 16.5481 10.2764 16.3523 10.0806Z"
+                fill="#888B97"
+              />
+              <path
+                d="M18.3599 12.088C18.1642 11.8922 17.846 11.8922 17.6503 12.088L16.6466 13.0917C16.4508 13.2874 16.4508 13.6056 16.6466 13.8013C16.7449 13.8987 16.8734 13.9479 17.0019 13.9479C17.1304 13.9479 17.2588 13.8987 17.3562 13.8013L18.3599 12.7976C18.5556 12.6019 18.5556 12.2837 18.3599 12.088Z"
+                fill="#888B97"
+              />
+              <path
+                d="M19.3636 9.07673C19.1678 8.881 18.8496 8.881 18.6539 9.07673L17.6502 10.0804C17.4545 10.2762 17.4545 10.5944 17.6502 10.7901C17.7486 10.8874 17.877 10.9366 18.0055 10.9366C18.134 10.9366 18.2625 10.8875 18.3599 10.7901L19.3636 9.78637C19.5593 9.59065 19.5593 9.27245 19.3636 9.07673Z"
+                fill="#888B97"
+              />
+            </svg>
+          </div>
+          2 Bathrooms
+        </div>
+        <div class="flex items-center">
+          <div class="">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M27.3837 10.6286L17.357 4.37929C16.5309 3.86917 15.4664 3.87438 14.6453 4.39024L4.6081 10.6338C3.98485 11.0255 3.81263 11.8251 4.22267 12.4197C4.63325 13.0144 5.47082 13.1792 6.09462 12.7869L16.0104 6.61852L25.9142 12.7922C26.1416 12.9325 26.3958 12.9987 26.6473 12.9987C27.0912 12.9987 27.5242 12.7916 27.7828 12.4109C28.1885 11.8131 28.0092 11.0161 27.3837 10.6286Z"
+                fill="#888B97"
+              />
+              <path
+                d="M24.2106 18.7531C24.134 18.3031 23.7524 17.9702 23.3074 17.9702H22.796L22.6017 15.8962C22.3941 13.6781 20.5984 12 18.4247 12H13.576C11.4018 12 9.60666 13.6787 9.39863 15.8962L9.2048 17.9702H8.69283C8.24734 17.9702 7.86628 18.3031 7.78865 18.7531L7.02755 23.1768C6.93317 23.7251 7.08438 24.2895 7.43347 24.715C7.76937 25.1249 8.26408 25.3694 8.78163 25.3876V26.1221C8.78163 27.162 9.59448 28 10.6098 28H11.1872C12.2015 28 13.0265 27.162 13.0265 26.1221V25.3996H18.9793V26.1206C18.9793 27.1609 19.7978 28 20.8121 28H21.39C22.4043 28 23.2237 27.1609 23.2237 26.1206V25.3876C23.7413 25.3694 24.2329 25.127 24.5678 24.7176C24.9169 24.291 25.0661 23.7298 24.9727 23.1804L24.2106 18.7531ZM10.3906 23.6933C9.53461 23.6933 8.84049 22.9822 8.84049 22.1036C8.84049 21.225 9.53461 20.5134 10.3906 20.5134C11.2471 20.5134 11.9417 21.2245 11.9417 22.1036C11.9417 22.9822 11.2471 23.6933 10.3906 23.6933ZM10.7772 17.9702L10.9563 16.057C11.0867 14.666 12.2127 13.6183 13.576 13.6183H13.8556V14.2196C13.8556 14.7414 14.26 15.157 14.7684 15.157H17.2324C17.7408 15.157 18.1523 14.7414 18.1523 14.2196V13.6188H18.4247C19.7881 13.6188 20.914 14.6665 21.0439 16.0575L21.2236 17.9707L10.7772 17.9702ZM21.6082 23.6933C20.7522 23.6933 20.0581 22.9822 20.0581 22.1036C20.0581 21.225 20.7522 20.5134 21.6082 20.5134C22.4647 20.5134 23.1593 21.2245 23.1593 22.1036C23.1593 22.9822 22.4647 23.6933 21.6082 23.6933Z"
+                fill="#888B97"
+              />
+            </svg>
+          </div>
+          1 Carport
+        </div>
+        <div class="flex items-center">
+          <div class="">
+            <svg
+              width="33"
+              height="32"
+              viewBox="0 0 33 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M27.2884 9H22.9324C22.2631 9 21.7207 9.53666 21.7207 10.1996V13.3135H18.5759C17.9064 13.3135 17.3641 13.85 17.3641 14.5129V17.6271H14.2192C13.5497 17.6271 13.0075 18.1643 13.0075 18.8265V22.0907H9.71171C9.39012 22.0907 9.08195 22.2169 8.85482 22.4416C8.6275 22.6664 8.5 22.973 8.5 23.2901L8.50039 25.7999C8.50039 26.4634 9.04297 27 9.71206 27H27.2884C27.9579 27 28.5 26.4634 28.5 25.7999V10.1995C28.5001 9.53666 27.9579 9 27.2884 9Z"
+                fill="#888B97"
+              />
+              <path
+                d="M21.264 5.2453C20.9425 4.92389 20.4158 4.91771 20.0863 5.23043C14.7431 10.3055 9.65982 15.2624 4.74409 20.0549C4.58768 20.2074 4.5 20.4146 4.5 20.6296V26.1877C4.5 26.6356 4.87278 27 5.33294 27C5.79264 27 6.16608 26.6357 6.16608 26.1877V20.9657C11.002 16.2503 16.0017 11.378 21.2485 6.39368C21.5778 6.08102 21.5845 5.56652 21.264 5.2453Z"
+                fill="#888B97"
+              />
+            </svg>
+          </div>
+          2 Floors
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <div class="flex space-x-4">
+          <div class=""><img src="/assets/p3.png" alt="" /></div>
+          <div class="">
+            <div class="">Dianne Russell</div>
+            <div class="text-gray">Manchester, Kentucky</div>
+          </div>
+        </div>
+        <div
+          class="flex items-center px-4 py-3 text-white rounded-full bg-green"
+        >
+          <svg
+            class="mr-2"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.38443 2.47912C8.90952 2.3208 9.47301 2.34711 9.98107 2.55365C10.4891 2.7602 10.9111 3.13453 11.1768 3.61432L11.2668 3.79312L12.06 5.55832C12.3011 6.09411 12.3794 6.68894 12.2851 7.26885C12.1908 7.84876 11.9281 8.38814 11.5296 8.81992L11.3712 8.97832L10.1184 10.1459C9.89283 10.3595 10.062 11.1863 10.8792 12.5999C11.6124 13.8719 12.2112 14.4659 12.504 14.4983H12.5556L12.6192 14.4863L15.0792 13.7339C15.4098 13.6325 15.7627 13.6285 16.0955 13.7224C16.4283 13.8162 16.7271 14.004 16.956 14.2631L17.0664 14.4011L18.6936 16.6571C19.0129 17.0992 19.1722 17.6368 19.1451 18.1814C19.1181 18.7261 18.9064 19.2453 18.5448 19.6535L18.3984 19.8047L17.7468 20.4215C17.1628 20.9746 16.4322 21.3484 15.6419 21.4984C14.8516 21.6483 14.0349 21.5682 13.2888 21.2675C10.9668 20.3315 8.85723 18.1931 6.94083 14.8739C5.02083 11.5463 4.22283 8.64592 4.57923 6.16192C4.68718 5.41091 4.99656 4.70316 5.47449 4.11388C5.95243 3.52459 6.58107 3.07578 7.29363 2.81512L7.52523 2.73832L8.38443 2.47912Z"
+              fill="white"
+            />
+          </svg>
+          Contact Now
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="relative">
+    <div
+      class="absolute flex items-end justify-center w-full -ml-16 space-x-8 -bottom-10"
+    >
+      <div class="">
+        <img src="/assets/Rectangle 18.png" alt="" />
+      </div>
+      <div class=""><img src="/assets/Rectangle 19.png" alt="" /></div>
+      <div class=""><img src="/assets/a.png" alt="" /></div>
+    </div>
+    <div class="flex items-center justify-center">
+      <img class="absolute" src="/assets/play.svg" alt="" />
+
+      <img src="/assets/Rectangle 17.png" alt="" />
+    </div>
+  </div>
 </div>
 
+<section class="">
+  <div class="text-center text-orange">See Our Review</div>
+  <div class="my-4 text-3xl font-medium text-center text-blue">
+    What Our User Say About Us
+  </div>
+  <!-- <div class="flex items-center justify-center space-x-10">
+    <div class="relative flex justify-center">
+      <div
+        class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+      >
+        <div class="text-xl font-medium text-blue">
+          Best! I got the house I wanted through Hounter
+        </div>
+        <div class="text-sm font-light text-gray">
+          Through this website I can get a house with the type and
+          specifications I want very easily, without a complicated process to be
+          able to find information on the house we want.
+        </div>
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+            <div class="">
+              <div class="font-medium text-blue-1">Dianne Russell</div>
+              <div class="text-gray-1">Manchester, Kentucky</div>
+            </div>
+          </div>
+          <div class="flex items-center font-bold text-blue">
+            <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+          </div>
+        </div>
+      </div>
+      <img src="/assets/h3.png" alt="" />
+    </div>
+    <div class="relative flex justify-center">
+      <div
+        class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+      >
+        <div class="text-xl font-medium text-blue">
+          Best! I got the house I wanted through Hounter
+        </div>
+        <div class="text-sm font-light text-gray">
+          Through this website I can get a house with the type and
+          specifications I want very easily, without a complicated process to be
+          able to find information on the house we want.
+        </div>
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+            <div class="">
+              <div class="font-medium text-blue-1">Dianne Russell</div>
+              <div class="text-gray-1">Manchester, Kentucky</div>
+            </div>
+          </div>
+          <div class="flex items-center font-bold text-blue">
+            <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+          </div>
+        </div>
+      </div>
+      <img src="/assets/h2.png" alt="" />
+    </div>
+    <div class="relative flex justify-center">
+      <div
+        class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+      >
+        <div class="text-xl font-medium text-blue">
+          Best! I got the house I wanted through Hounter
+        </div>
+        <div class="text-sm font-light text-gray">
+          Through this website I can get a house with the type and
+          specifications I want very easily, without a complicated process to be
+          able to find information on the house we want.
+        </div>
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+            <div class="">
+              <div class="font-medium text-blue-1">Dianne Russell</div>
+              <div class="text-gray-1">Manchester, Kentucky</div>
+            </div>
+          </div>
+          <div class="flex items-center font-bold text-blue">
+            <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+          </div>
+        </div>
+      </div>
+      <img src="/assets/h1.png" alt="" />
+    </div>
+  </div> -->
+  <div class="my-10 overflow-x-hidden">
+    <ngx-slick-carousel
+      class=" carousel"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+      (init)="slickInit($event)"
+      (breakpoint)="breakpoint($event)"
+      (afterChange)="afterChange($event)"
+      (beforeChange)="beforeChange($event)"
+    >
+      <div ngxSlickItem  class="slide">
+        <div class="relative flex justify-center">
+          <div
+            class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+          >
+            <div class="text-xl font-medium text-blue">
+              Best! I got the house I wanted through Hounter
+            </div>
+            <div class="text-sm font-light text-gray">
+              Through this website I can get a house with the type and
+              specifications I want very easily, without a complicated process
+              to be able to find information on the house we want.
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+                <div class="">
+                  <div class="font-medium text-blue-1">Dianne Russell</div>
+                  <div class="text-gray-1">Manchester, Kentucky</div>
+                </div>
+              </div>
+              <div class="flex items-center font-bold text-blue">
+                <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+              </div>
+            </div>
+          </div>
+          <img src="/assets/h3.png" alt="" />
+        </div>
+      </div>
+      <div ngxSlickItem class="slide">
+        <div class="relative flex justify-center">
+          <div
+            class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+          >
+            <div class="text-xl font-medium text-blue">
+              Best! I got the house I wanted through Hounter
+            </div>
+            <div class="text-sm font-light text-gray">
+              Through this website I can get a house with the type and
+              specifications I want very easily, without a complicated process
+              to be able to find information on the house we want.
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+                <div class="">
+                  <div class="font-medium text-blue-1">Dianne Russell</div>
+                  <div class="text-gray-1">Manchester, Kentucky</div>
+                </div>
+              </div>
+              <div class="flex items-center font-bold text-blue">
+                <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+              </div>
+            </div>
+          </div>
+          <img src="/assets/h2.png" alt="" />
+        </div>
+      </div>
+      <div ngxSlickItem class="slide">
+        <div class="relative flex justify-center">
+          <div
+            class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+          >
+            <div class="text-xl font-medium text-blue">
+              Best! I got the house I wanted through Hounter
+            </div>
+            <div class="text-sm font-light text-gray">
+              Through this website I can get a house with the type and
+              specifications I want very easily, without a complicated process
+              to be able to find information on the house we want.
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+                <div class="">
+                  <div class="font-medium text-blue-1">Dianne Russell</div>
+                  <div class="text-gray-1">Manchester, Kentucky</div>
+                </div>
+              </div>
+              <div class="flex items-center font-bold text-blue">
+                <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+              </div>
+            </div>
+          </div>
+          <img src="/assets/h1.png" alt="" />
+        </div>
+      </div>
+      <div ngxSlickItem  class="slide">
+        <div class="relative flex justify-center">
+          <div
+            class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+          >
+            <div class="text-xl font-medium text-blue">
+              Best! I got the house I wanted through Hounter
+            </div>
+            <div class="text-sm font-light text-gray">
+              Through this website I can get a house with the type and
+              specifications I want very easily, without a complicated process
+              to be able to find information on the house we want.
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+                <div class="">
+                  <div class="font-medium text-blue-1">Dianne Russell</div>
+                  <div class="text-gray-1">Manchester, Kentucky</div>
+                </div>
+              </div>
+              <div class="flex items-center font-bold text-blue">
+                <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+              </div>
+            </div>
+          </div>
+          <img src="/assets/h3.png" alt="" />
+        </div>
+      </div>
+      <div ngxSlickItem class="slide">
+        <div class="relative flex justify-center">
+          <div
+            class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+          >
+            <div class="text-xl font-medium text-blue">
+              Best! I got the house I wanted through Hounter
+            </div>
+            <div class="text-sm font-light text-gray">
+              Through this website I can get a house with the type and
+              specifications I want very easily, without a complicated process
+              to be able to find information on the house we want.
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+                <div class="">
+                  <div class="font-medium text-blue-1">Dianne Russell</div>
+                  <div class="text-gray-1">Manchester, Kentucky</div>
+                </div>
+              </div>
+              <div class="flex items-center font-bold text-blue">
+                <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+              </div>
+            </div>
+          </div>
+          <img src="/assets/h2.png" alt="" />
+        </div>
+      </div>
+      <div ngxSlickItem class="slide">
+        <div class="relative flex justify-center">
+          <div
+            class="absolute w-10/12 p-5 space-y-2 bg-white shadow rounded-2xl -bottom-1/4"
+          >
+            <div class="text-xl font-medium text-blue">
+              Best! I got the house I wanted through Hounter
+            </div>
+            <div class="text-sm font-light text-gray">
+              Through this website I can get a house with the type and
+              specifications I want very easily, without a complicated process
+              to be able to find information on the house we want.
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center space-x-2">
+                <div class=""><img src="/assets/Ellipse 6.png" alt="" /></div>
+                <div class="">
+                  <div class="font-medium text-blue-1">Dianne Russell</div>
+                  <div class="text-gray-1">Manchester, Kentucky</div>
+                </div>
+              </div>
+              <div class="flex items-center font-bold text-blue">
+                <img src="/assets/star.svg" class="mr-2" alt="" /> 4.6
+              </div>
+            </div>
+          </div>
+          <img src="/assets/h1.png" alt="" />
+        </div>
+      </div>
+    </ngx-slick-carousel>
+  </div>
 
+  <!--
+  <button (click)="addSlide()">Add</button>
+  <button (click)="removeSlide()">Remove</button> -->
+  <!-- <button (click)="slickModal.slickGoTo(2)">slickGoto 2</button>
+  <button (click)="slickModal.unslick()">unslick</button> -->
+
+  <div class="hidden">
+    <!--  [scrollbar]="{ draggable: true }"  [navigation]="{}"-->
+    <!-- <div>
+      <swiper
+        [loop]="true"
+        [centeredSlides]="true"
+        [slidesPerView]="3"
+        [spaceBetween]="50"
+        (swiper)="setControlledSwiper($event)"
+        [pagination]="{ clickable: true, dynamicBullets: true }"
+        [watchSlidesProgress]="true"
+      >
+        <ng-template class="w-full max-w-xl" swiperSlide>Slide 1</ng-template>
+        <ng-template class="w-full max-w-xl" swiperSlide>Slide 2</ng-template>
+        <ng-template class="w-full max-w-xl" swiperSlide>Slide 3</ng-template>
+        <ng-template class="w-full max-w-xl" swiperSlide>Slide 4</ng-template>
+        <ng-template class="w-full max-w-xl" swiperSlide>Slide 5</ng-template>
+        <ng-template class="w-full max-w-xl" swiperSlide>Slide 6</ng-template>
+      </swiper>
+    </div> -->
+  </div>
+</section>
+<section class="mx-20 mt-40">
+  <div class="my-20 space-y-3 text-center">
+    <div class="text-center text-orange">
+      See tips and trick from our partnership
+    </div>
+    <div
+      class="max-w-md mx-auto text-3xl font-medium text-center capitalize text-blue"
+    >
+      Find out more about selling and buying homes
+    </div>
+
+    <button class="px-6 py-3 text-white rounded-full bg-green">
+      More Artikel
+    </button>
+  </div>
+  <div class="grid grid-cols-2">
+    <div class="mx-auto space-y-6 text-gray-2">
+      <div class="flex">
+        <div class="mr-4"><img src="/assets/l1.png" alt="" /></div>
+        <div class="flex flex-col justify-around">
+          <div class="flex items-center ">
+            <div class="mr-2"><img src="/assets/a1.png" alt="" /></div>
+            Dianne Russell
+          </div>
+          <div class="max-w-sm text-blue">
+            The things we need to check when we want to buy a house
+          </div>
+          <div class="flex items-center text-gray-1">
+            <img class="mr-2" src="/assets/ic_round-access-time.png" alt="" /> 4 min read |
+            25 Apr 2021
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="mr-4"><img src="/assets/l2.png" alt="" /></div>
+        <div class="flex flex-col justify-around">
+          <div class="flex items-center">
+            <div class="mr-2"><img src="/assets/a2.png" alt="" /></div>
+            Courtney Henry
+          </div>
+          <div class="max-w-sm text-blue">
+            7 Ways to distinguish the quality of the house we want to buy
+          </div>
+          <div class="flex items-center text-gray-1">
+            <img class="mr-2" src="/assets/ic_round-access-time.png" alt="" /> 6 min read |
+            24 Apr 2021
+          </div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="mr-4"><img src="/assets/l3.png" alt="" /></div>
+        <div class="flex flex-col justify-around">
+          <div class="flex items-center">
+            <div class="mr-2"><img src="/assets/a3.png" alt="" /></div>
+            Darlene Robertson
+          </div>
+          <div class="max-w-sm text-blue">
+            The best way to know the quality of the house we want to buy
+          </div>
+          <div class="flex items-center text-gray-1">
+            <img class="mr-2" src="/assets/ic_round-access-time.png" alt="" /> 4 min read |
+            25 Apr 2021
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto space-y-4">
+      <img src="/assets/Rectangle 23.png" alt="" />
+      <div class="flex items-center text-gray-2">
+        <div class="mr-2 "><img src="/assets/a4.png" alt="" /></div>
+        Cameron Williamson
+      </div>
+      <div class="text-xl font-medium text-blue">12 Things to know before buying a house</div>
+      <div class="max-w-xl text-sm text-gray">
+        Want to buy a house but are unsure about what we should know, here I
+        will try to explain what we should know and check when we want to buy a
+        house
+      </div>
+      <div class="flex items-center text-gray-1 ">
+        <img class="mr-2" src="/assets/ic_round-access-time.png" alt="" /> 8 min read | 25
+        Apr 2021
+      </div>
+    </div>
+  </div>
+</section>
+<section class="w-full my-20">
+  <div style="background-image: url('/assets/herobg.svg');" class="flex justify-between w-full p-12 px-20 mx-auto bg-no-repeat bg-cover rounded-3xl max-w-screen-xxxl">
+    <div class="grid grid-cols-2 gap-10">
+      <div class="border-2 border-white rounded-3xl"><img src="/assets/bar/1.png" alt="" /></div>
+      <div ><img class="border-2 border-white rounded-full" src="/assets/bar/2.png" alt="" /></div>
+      <div ><img class="border-2 border-white rounded-full" src="/assets/bar/3.png" alt="" /></div>
+      <div ><img class="border-2 border-white rounded-full" src="/assets/bar/4.png" alt="" /></div>
+    </div>
+    <div class="space-y-8">
+      <div class="max-w-lg text-3xl text-center capitalize text-blue">Subscribe For More Info and update from Hounter</div>
+      <div
+        class="relative inline-flex items-center justify-between w-full max-w-xs lg:max-w-lg"
+      >
+        <button
+          class="
+            absolute
+            right-0.5
+            p-2.5
+            px-8
+            mr-0.5
+            text-white
+            bg-green
+            rounded-full
+          "
+        >
+          Subsribe Now
+        </button>
+        <img src="/assets/eva_email-fill.png" class="absolute px-3" alt="" />
+        <input
+          placeholder="Your email here"
+          name=""
+          class="w-full p-3 pl-10 pr-32 border border-gray-200 rounded-full focus:outline-none focus:border-gray-300"
+        />
+      </div>
+    </div>
+    <div class="grid grid-cols-2 gap-10">
+      <div class="border-2 border-white rounded-3xl"><img src="/assets/bar/5.png" alt="" /></div>
+      <div class=""><img class="border-2 border-white rounded-full" src="/assets/bar/6.png" alt="" /></div>
+      <div class=""><img class="border-2 border-white rounded-full" src="/assets/bar/7.png" alt="" /></div>
+      <div class=""><img class="border-2 border-white rounded-full" src="/assets/bar/8.png" alt="" /></div>
+    </div>
+  </div>
+</section>
+
+<app-footer></app-footer>
