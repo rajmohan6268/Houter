@@ -14,6 +14,7 @@ import SwiperCore, {
 } from 'swiper';
 import { BehaviorSubject } from 'rxjs';
 import Swiper from 'swiper/types/swiper-class';
+import * as AOS from 'aos';
 
 // install Swiper components
 SwiperCore.use([
@@ -70,7 +71,7 @@ export class AppComponent {
   slides$ = new BehaviorSubject<string[]>(['']);
   constructor(private cd: ChangeDetectorRef, private ngZone: NgZone) {}
   ngOnInit() {
-
+    AOS.init();
     console.log()
     if(screen){
       if(screen.width>500){
