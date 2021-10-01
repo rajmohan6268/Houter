@@ -23,7 +23,8 @@ module.exports = {
 
       '2xl': '1536px',
       '3xl': '1679px',
-      '4xl': '1820px'
+      '4xl': '1820px',
+
       // => @media (min-width: 1536px) { ... }
     },
   },

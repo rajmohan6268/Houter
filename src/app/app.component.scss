@@ -73,6 +73,7 @@ text {
 //   background: brown;
 // }
 
+/**/
 
 .slick-slider {
   background: rgb(255, 255, 255);
@@ -82,20 +83,37 @@ text {
   overflow: visible;
 
 }
-:host ::ng-deep.slick-dotted.slick-slider {
-  margin-bottom: 150px;
-}
-:host ::ng-deep.slick-dots {
 
-  bottom: -135px;
-
-}
 
 :host ::ng-deep.slick-slide {
 
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
+:host ::ng-deep.slick-dots {
+
+  bottom: -235px;
+
+}
+:host ::ng-deep.slick-dotted.slick-slider {
+  margin-bottom: 250px;
+}
+@media (min-width:500px) {
+  :host ::ng-deep.slick-dotted.slick-slider {
+    margin-bottom: 150px;
+  }
+  :host ::ng-deep.slick-dots {
+
+    bottom: -135px;
+
+  }
+  :host ::ng-deep.slick-slide {
+
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
 // body .slick-prev,
 // body .slick-next {
 //   height: 45px;
@@ -103,3 +121,14 @@ text {
 //   background: grey !important;
 //   z-index: 100;
 // }
+
+.rounded-half{
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+
+

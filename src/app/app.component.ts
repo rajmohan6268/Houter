@@ -33,7 +33,35 @@ SwiperCore.use([
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  textshow:boolean=false
   title = 'tailwind-card';
+  slideConfig = {
+    dots: true,
+    variableWidth: false,
+    centerMode: true,
+    centerPadding: '80px',
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 310,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
   @ViewChild('swiperRef', { static: false }) swiperRef?: SwiperComponent;
 
@@ -41,7 +69,20 @@ export class AppComponent {
   thumbs: any;
   slides$ = new BehaviorSubject<string[]>(['']);
   constructor(private cd: ChangeDetectorRef, private ngZone: NgZone) {}
-  ngOnInit() {}
+  ngOnInit() {
+
+    console.log()
+    if(screen){
+      if(screen.width>500){
+        this.slideConfig.variableWidth=true
+
+      }
+      if(screen.width>400){
+        this.textshow=true
+        }
+    }
+
+  }
 
   getSlides() {
     this.slides$.next(
@@ -60,33 +101,6 @@ export class AppComponent {
 
   //
 
-  slideConfig = {
-    dots: true,
-    variableWidth: true,
-    centerMode: true,
-    centerPadding: '80px',
-    slidesToShow: 2,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
   // addSlide() {
   //   this.slides.push({img: "http://placehold.it/350x150/777777"})
